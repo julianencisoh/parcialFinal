@@ -46,12 +46,12 @@ public class Logic {
 
 			if (separaPalabras[0].contentEquals("infectadas")) {
 
-				int colorPersona = appDos.color(0, 255, 0);
+				int colorPersona = appDos.color(255, 0, 0);
 
 				for (int k = 0; k < tamFig; k++) {
 					int posicionx = (int) (appDos.random(1, 500));
 					int posiciony = (int) (appDos.random(1, 500));
-					figuras.add(new Sanas(7, 7, colorPersona, posicionx, posiciony, appDos));
+					figuras.add(new Infectadas(7, 7, colorPersona, posicionx, posiciony, appDos));
 
 				}
 			}
@@ -59,12 +59,12 @@ public class Logic {
 			// RECUPERADAS
 
 			if (separaPalabras[0].contentEquals("recuperadas")) {
-				int colorPersona = appDos.color(0, 255, 0);
+				int colorPersona = appDos.color(0, 0, 255);
 
 				for (int k = 0; k < tamFig; k++) {
 					int posicionx = (int) (appDos.random(1, 500));
 					int posiciony = (int) (appDos.random(1, 500));
-					figuras.add(new Sanas(7, 7, colorPersona, posicionx, posiciony, appDos));
+					figuras.add(new Recuperadas(7, 7, colorPersona, posicionx, posiciony, appDos));
                     }}}}
 	
 
