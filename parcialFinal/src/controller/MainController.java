@@ -21,19 +21,43 @@ public class MainController {
 		logic.draw();
 	}
 
-	public void mouseClicked() {
-		logic.mouseCliked();
-	}
+
 
 	public void keyPressed(char key) {
 
-		if (key == 'n') {
+		if (key == 'c') {
 			logic.ordenarNatural();
 
 		} else if (key == 'p') {
 			logic.ordenarParcial();
 		}
 	}
+	
+	
+public int contadorSanas() {
+		
+		
+		logic.getPersonasSanas();
+		
+		return logic.getPersonasSanas();
+	}
+
+public int contadorInfectadas() {
+	
+	
+	logic.getPersonasInfectadas();
+	
+	return logic.getPersonasInfectadas();
+}
+
+public int contadorRecuperadas() {
+	
+	
+	logic.getPersonasRecuperadas();
+	
+	return logic.getPersonasRecuperadas();
+}
+
 
 	public void llamarExcepcionUno() throws ExceptionOne {
 		
@@ -46,6 +70,5 @@ public class MainController {
 	}
 	
 	
-	
-	
 }
+
