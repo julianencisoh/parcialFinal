@@ -41,52 +41,6 @@ public class Main extends PApplet {
 		
 	}
 	
-	
-	
-	
-	/*
-	 *public void draw() {
-		
-		mc.draw();
-		verficarchoque();
-		if (mensaje1==true) {
-			//coloco el txt
-			
-		}else if (mensaje2==true) {
-			
-			
-		}
-		fill(255);
-		noStroke();
-		
-		rect(0,0,600,100);
-		
-		
-		fill (15);
-		textSize(10);
-		text("Sanos" + mc.contadors(),10,10);
-		
-	} 
-	 * 
-	 * */
-	 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 	public void keyPressed() {
 		mainController.keyPressed(key);
